@@ -9,8 +9,8 @@
 
 ### Code
 
-*FELEMN
-*Input the model architectures, the number of sub-models, the dataset, Epoch, Opt, and the batch size, and then call the FELEMN as shown in main_FELEMN.
+* FELEMN
+* Input the model architectures, the number of sub-models, the dataset, Epoch, Opt, and the batch size, and then call the FELEMN as shown in main_FELEMN.
 * The methods GreedyMax and GreedyMin directly call GreedyMax.py and GreedyMin.py.
 
 * S-FELEMN
