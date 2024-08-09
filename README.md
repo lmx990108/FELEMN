@@ -9,7 +9,22 @@
 
 ### Code
 
-* The FELEMN method code is in the FELEMN.PY file. You can call it by directly running main_FELEMN.
-* The hardvoting(S-FELEMN) corresponding method can be directly invoked by running main_hardvoting.py, which will call both our method and the baselines.
-* The softvoting(S-FELEMN_delta) corresponding method can be directly invoked by running main_softvoting.py, which will call both our method and the baselines.
+*FELEMN
+*Input the model architectures, the number of sub-models, the dataset, Epoch, Opt, and the batch size, and then call the FELEMN as shown in main_FELEMN.
+
+
+
+* S-FELEMN
+* Input the model architectures, the number of sub-models, the dataset, Epoch, Opt, and the batch size.
+* Create the unlearning and testing requests.
+* Call the S-FELEMN(hardvoting) and the baselines OBO(hardvoting), Eraser as shown in main_hardvoting.py.
+  
+* S-FELEMN_delta
+* Input the model architectures, the number of sub-models, the dataset, Epoch, Opt, and the batch size.
+*  Create the unlearning and testing requests.
+* Call the S-FELEMN_delta(softvoting) and the baselines OBO(softvoting), S-FELEMN(softvoting) as shown in main_softvoting.py.
+
+* The methods GreedyMax and GreedyMin directly call GreedyMax.py and GreedyMin.py.
+
+
 
